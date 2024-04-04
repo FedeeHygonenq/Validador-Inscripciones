@@ -16,7 +16,8 @@ public class InscripcionTest {
 
         paradigmas.agregarCorrelativa(algoritmos);
         diseño.agregarCorrelativa(paradigmas);
-
+        alumno.agregarMateriaAprobada(paradigmas);
+        alumno.agregarMateriaAprobada(algoritmos);
 
         Inscripcion inscripcion = new Inscripcion(alumno);
         inscripcion.agregarMateriaAInscribirse(diseño);
